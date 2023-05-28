@@ -1,0 +1,24 @@
+ <!--   Mobile Execution
+
+  <parameter name="devicePort" value="7800"/>
+		  <parameter name="deviceUDID" value="ce12171c9d95a81f01"/>
+
+  -->
+
+	 <suite name="GetMyParking  Automation Test Suite"  verbose="1">
+	      <parameter name="configFileName" value="project.properties"/>
+		   <!-- <parameter name="devicePort" value="4723"/>  -->
+		  <parameter name="deviceUDID" value="emulator-5554"/>
+
+
+
+
+
+</suite>
+ 
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="configFileName" value="project.properties" />
+	<parameter name="devicePort" value="4726" />
+	<parameter name="deviceUDID" value="ce12171c1083101f05" />
+	
+	<test name="Test">
+		<classes>
+			<class name="runner.com.dream11.android.CucumberTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
